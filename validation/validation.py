@@ -557,6 +557,7 @@ def lambda_handler(event, context):
             "must_be_a_leaf_node": fourth_result,
             "date_out_of_range": fifth_result
         }
+        
         # print("result_dict: ", result_dict)
         overall_status = compute_overall_status(result_dict)
 
